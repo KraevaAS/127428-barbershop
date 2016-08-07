@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Набор для путешествий «Baxter of California»</title>
   </head>
   <body>
-    <header class="header header-inner uppercased">
+    <header class="header uppercased">
       <div class="container-catalog">
         <nav class="catalog-navigation">
-          <div class="logo" href="#"></div>
+          <a class="logo" href="#">
+            <img src="http://placehold.it/140x72" alt="Логотип компании Barbershop" width="140" height="72">
+          </a>
           <ul>
             <li>
               <a href="#">Информация</a>
@@ -19,8 +21,8 @@
             <li>
               <a href="#">Прайс-лист</a>
             </li>
-            <li>
-              <a href="#">Магазин</a>
+            <li class="active">
+              <span>Магазин</span>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -33,9 +35,9 @@
       </div>
     </header>
     <main>
-      <div class="uppercase">
+      <div class="uppercased">
         <h1>
-          Набор для путешествий <span class="quoted">Baxter of California</span>
+          Набор для путешествий &laquo;Baxter of Californiaи&raquo;
         </h1>
         <div class="catalog-breadcrumbs">
           <ul>
@@ -49,22 +51,21 @@
               <a href="#">Средства для ухода</a>
             </li>
             <li class="active">
-              Набор для путешествий <span class="quoted">Baxter of California</span>
+              <span>Набор для путешествий &laquo;Baxter of California&raquo;</span>
             </li>
           </ul>
         </div>
       </div>
-      <section class="description uppercase">
-        <p>Есть в наличии</p>
-        <!-- или <div class="availability">Есть в наличии</div> ? -->
-        <p>Артикул: dexter-ae</p>
-        <p>Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком. </p>
-      </section>
+      <div class="description uppercased">
+        <div class="left">Есть в наличии</div>
+        <div class="right">Артикул: dexter-ae</div>
+        <p>Travel kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+      </div>
       <div>
         <div class="price">2 900</div>
-        <a class="btn" href="#">Купить</a>
+        <button class="btn">Купить</button>
       </div>
-      <section class="content uppercase">
+      <section class="content uppercased">
         <h2>В набор входят:</h2>
         <ul>
           <li>Средство для умывания (50мл)</li>
@@ -74,31 +75,31 @@
           <li>Удобная кожаная косметичка</li>
         </ul>
       </section>
-      <section class="galery">
-        <img src="http://placehold.it/460x498">
-        <img src="http://placehold.it/140x149">
-        <img src="http://placehold.it/140x149">
-        <img src="http://placehold.it/140x149">
-      <section>
+      <div class="galery">
+        <img src="http://placehold.it/460x498" alt="Набор для путешествий Baxter of California" width="460" height="498">
+        <img src="http://placehold.it/140x149" alt="Набор для путешествий Baxter of California" width="140" height="149">
+        <img src="http://placehold.it/140x149" alt="Набор для путешествий Baxter of California" width="140" height="149">
+        <img src="http://placehold.it/140x149" alt="Набор для путешествий Baxter of California" width="140" height="149">
+      </div>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer uppercased">
       <div class="container">
-        <section class="footer-contacts">
-          Барбершоп «Бородинский»<br>
+        <div class="footer-contacts">
+          <p>Барбершоп «Бородинский»</p><br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
-        </section>
-        <section class="footer-social">
+        </div>
+        <div class="footer-social">
           <p>Давайте дружить!</p>
           <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-        </section>
-        <section class="footer-copyright">
+        </div>
+        <div class="footer-copyright">
           <p>Разработано:</p>
           <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-        </section>
+        </div>
       </div>
     </footer>
   </body>
