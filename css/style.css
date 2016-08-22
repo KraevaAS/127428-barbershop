@@ -1,23 +1,97 @@
 body {
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-  font-weight: bold;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  color       : #000000;
+  font-family : "PT Sans Narrow",
+                "Arial",
+                sans-serif;
+  font-size   : 14px;
+  font-weight : bold;
+  line-height : 24px;
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 42px;
-  color: #000000;
-  font-weight: bold;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  color       : #000000;
+  font-family : "PT Sans Narrow",
+                "Arial",
+                sans-serif;
+  font-size   : 30px;
+  font-weight : bold;
+  line-height : 42px;
 }
 
 h2 {
-  font-size: 24px;
-  line-height: 30px;
-  color: #000000;
+  color       : #000000;
+  font-family : "PT Sans Narrow",
+                "Arial",
+                sans-serif;
+  font-size   : 24px;
+  font-weight : bold;
+  line-height : 30px;
+}
+
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: auto;
+  background-color: #000000;
+}
+
+.container-catalog {
+  width: 960px;
+  min-height: 70px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.catalog-navigation {
+  float: left;
+}
+
+ul {
+  text-transform: uppercase;
+  float: left;
+  padding-left: 0px;
+  margin-left: 30px;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-weight: bold;
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  vertical-align: top;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+li:first-child {
+  padding-left: 0px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-block {
+  float: right;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 24px;
+  margin-left: 180px;
+}
+
+.logo {
+  padding-top: 15px;
 }
