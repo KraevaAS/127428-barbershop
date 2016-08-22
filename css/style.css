@@ -111,10 +111,6 @@ header {
   width: 730px;
 }
 
-footer {
-  clear: both;
-}
-
 .clearfix::after {
   content: "";
   display: table;
@@ -178,4 +174,30 @@ footer {
 
 .galery-description .main-description {
   clear: both;
+}
+
+footer {
+  clear: both;
+  min-height: 190px;
+}
+
+.footer-container {
+  width: 960px;
+  margin: 0 auto;
+  display: table;
+}
+
+.footer-contacts {
+  width: 330px;
+  display: table-cell;
+}
+
+.footer-social {
+  width: 160px;
+  display: table-cell;
+}
+
+.footer-copyright {
+  width: 160px;
+  display: table-cell;
 }
