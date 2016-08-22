@@ -131,3 +131,20 @@ footer {
 .pager {
   clear: both;
 }
+
+.catalog-breadcrumbs a {
+    text-decoration: none;
+}
+
+.catalog-breadcrumbs li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.manufacture li {
+    list-style-type: none;
+}
+
+.product-group li {
+  list-style-type: none;
+}
