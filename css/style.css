@@ -148,3 +148,34 @@ footer {
 .product-group li {
   list-style-type: none;
 }
+
+.galery {
+  float: left;
+  width: 460px;
+}
+
+.galery-small img {
+  padding-left: 15px;
+  margin: 0px;
+}
+
+.galery-small img:first-child {
+  padding-left: 0px;
+}
+
+.galery-description {
+  float: right;
+  width: 400px;
+}
+
+.galery-description .left {
+  float: left;
+}
+
+.galery-description .right {
+  float: right;
+}
+
+.galery-description .main-description {
+  clear: both;
+}
