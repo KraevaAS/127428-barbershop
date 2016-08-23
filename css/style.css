@@ -6,6 +6,7 @@ body {
   font-size   : 14px;
   font-weight : bold;
   line-height : 24px;
+  min-width: 960px;
 }
 
 h1 {
@@ -28,176 +29,168 @@ h2 {
   line-height : 30px;
 }
 
-html,
-body {
-  min-width: 1122px;
-  min-height: 1750px;
-  margin: 0;
-  padding: 0;
-}
-
 header {
-  width: auto;
-  background-color: #000000;
+  width            : auto;
+  background-color : #000000;
 }
 
 .container-catalog {
-  width: 960px;
-  min-height: 70px;
-  margin-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
+  width         : 960px;
+  min-height    : 70px;
+  margin-right  : auto;
+  margin-bottom : 60px;
+  margin-left   : auto;
 }
 
 .catalog-navigation {
-  float: left;
+  float : left;
 }
 
 .catalog-navigation ul {
-  text-transform: uppercase;
-  float: left;
-  padding-left: 0px;
-  margin-left: 30px;
+  float          : left;
+  margin-left    : 30px;
+  padding-left   : 0;
+  text-transform : uppercase;
 }
 
 .catalog-navigation li {
-  list-style-type: none;
-  display: inline-block;
-  color: #ffffff;
-  font-size: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-weight: bold;
-  vertical-align: top;
-  margin-top: 10px;
-  line-height: 20px;
+  display         : inline-block;
+  margin-top      : 10px;
+  padding-right   : 20px;
+  padding-left    : 20px;
+  color           : #ffffff;
+  vertical-align  : top;
+  font-size       : 16px;
+  font-weight     : bold;
+  line-height     : 20px;
+  list-style-type : none;
 }
 
 .catalog-navigation li:first-child {
-  padding-left: 0px;
+  padding-left : 0;
 }
 
 .catalog-navigation a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
+  color           : #ffffff;
+  text-decoration : none;
+  font-size       : 16px;
+  font-weight     : bold;
 }
 
 .user-block {
-  float: right;
-  text-transform: uppercase;
-  color: #000000;
-  margin-top: 24px;
-  margin-left: 180px;
+  float          : right;
+  margin-top     : 24px;
+  margin-left    : 180px;
+  color          : #000000;
+  text-transform : uppercase;
 }
 
 .logo {
-  padding-top: 15px;
+  padding-top : 15px;
 }
 
 .catalog-container {
-  width: 960px;
-  margin: 0 auto;
+  width  : 960px;
+  margin : 0 auto;
 }
 
 .submit-group {
-  float: left;
-  width: 230px;
+  width : 230px;
+  float : left;
 }
 
 .showcase {
-  float: right;
-  width: 730px;
+  width : 730px;
+  float : right;
 }
 
 .clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+  content : "";
+  display : table;
+  clear   : both;
 }
 
 .showcase article {
-  float: left;
-  width: 220px;
-  height: 286px;
-  margin: 10px;
+  width  : 220px;
+  height : 286px;
+  float  : left;
+  margin : 10px;
 }
 
 .pager {
-  clear: both;
+  clear : both;
 }
 
 .catalog-breadcrumbs a {
-    text-decoration: none;
+  text-decoration : none;
 }
 
 .catalog-breadcrumbs li {
-    list-style-type: none;
-    display: inline-block;
+  display         : inline-block;
+  list-style-type : none;
 }
 
 .manufacture li {
-    list-style-type: none;
+  list-style-type : none;
 }
 
 .product-group li {
-  list-style-type: none;
+  list-style-type : none;
 }
 
 .galery {
-  float: left;
-  width: 460px;
+  width : 460px;
+  float : left;
 }
 
 .galery-small img {
-  padding-left: 15px;
-  margin: 0px;
+  margin       : 0;
+  padding-left : 15px;
 }
 
 .galery-small img:first-child {
-  padding-left: 0px;
+  padding-left : 0;
 }
 
 .galery-description {
-  float: right;
-  width: 400px;
+  width : 400px;
+  float : right;
 }
 
 .galery-description .left {
-  float: left;
+  float : left;
 }
 
 .galery-description .right {
-  float: right;
+  float : right;
 }
 
 .galery-description .main-description {
-  clear: both;
+  clear : both;
 }
 
 footer {
-  clear: both;
-  min-height: 190px;
+  min-height : 190px;
+  clear      : both;
 }
 
 .footer-container {
-  width: 960px;
-  margin: 0 auto;
-  display: table;
+  display : table;
+  width   : 960px;
+  margin  : 0 auto;
 }
 
 .footer-contacts {
-  width: 330px;
-  display: table-cell;
+  display : table-cell;
+  width   : 330px;
 }
 
 .footer-social {
-  width: 160px;
-  display: table-cell;
+  display : table-cell;
+  width   : 160px;
 }
 
 .footer-copyright {
-  width: 160px;
-  display: table-cell;
+  display : table-cell;
+  width   : 160px;
 }
